@@ -72,6 +72,7 @@
     <Compile Include="RestMockTest.cs" />
     <Compile Include="RestTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestLocationData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
