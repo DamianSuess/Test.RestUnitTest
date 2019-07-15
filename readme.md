@@ -4,8 +4,12 @@ This repo shows you how to perform RESTful calls using Xamarin.Forms and setup a
 System test examples show you how to perform validations both online and offline!
 
 ## Projects
-* Test.RestApi
 * Test.RestApi.SystemTests
+  * ``RestTests.cs`` - These tests require an internet connection
+  * ``RestMockTest.cs`` - Offline tests using our own mock REST API server
+* Test.RestApi
+  * ``Models`` are used for system tests
+  * The GUI is just garbage noise & can be removed
 
 ## Tech Used
 * [Microsoft.VisualStudio.TestTools.UnitTesting](https://docs.microsoft.com/en-us/visualstudio/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests?view=vs-2019)
