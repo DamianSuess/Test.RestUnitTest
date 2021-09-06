@@ -1,5 +1,5 @@
 # Xamarin REST API sample
-This repo shows you how to perform RESTful calls using Xamarin.Forms and setup a Unit Testing framework around it
+This repo shows you how to setup a Unit Testing framework for RESTful API calls using RestSharp and ASP.NET Core. The sample also includes a Xamarin.Forms test app which is under construction.
 
 System test examples show you how to perform validations both online and offline!
 
