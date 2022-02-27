@@ -7,15 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.RestApi.UWP", "Test.Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.RestApi.Android", "Test.RestApi\Test.RestApi.Android\Test.RestApi.Android.csproj", "{72821DBA-7F96-4FA7-A4F8-C26DA1CBF7D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.RestApi.MobileAppService", "Test.RestApi\Test.RestApi.MobileAppService\Test.RestApi.MobileAppService.csproj", "{770888BB-1534-4871-914C-11CD36B5D8DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.RestApi.MobileAppService", "Test.RestApi\Test.RestApi.MobileAppService\Test.RestApi.MobileAppService.csproj", "{770888BB-1534-4871-914C-11CD36B5D8DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.RestApi", "Test.RestApi\Test.RestApi\Test.RestApi.csproj", "{D37224EE-BFDE-446C-BF59-D9325BD2185A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.RestApi", "Test.RestApi\Test.RestApi\Test.RestApi.csproj", "{D37224EE-BFDE-446C-BF59-D9325BD2185A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.RestApi.SystemTests", "Test.RestApi.SystemTests\Test.RestApi.SystemTests.csproj", "{15E729E3-26A5-4B65-93D4-25B7F22D8131}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{09B3B4E2-F62E-4221-AD77-D0FC6BA08BA0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemTests", "SystemTests", "{21C6F99D-CD99-4AC2-A92A-A53167B9A5C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServer", "WebServer", "{322C087C-DD94-4C89-8D00-51E943052545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,7 +150,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BDAB7757-2709-4FC6-8498-C72299C367B3} = {09B3B4E2-F62E-4221-AD77-D0FC6BA08BA0}
 		{72821DBA-7F96-4FA7-A4F8-C26DA1CBF7D5} = {09B3B4E2-F62E-4221-AD77-D0FC6BA08BA0}
-		{770888BB-1534-4871-914C-11CD36B5D8DF} = {09B3B4E2-F62E-4221-AD77-D0FC6BA08BA0}
+		{770888BB-1534-4871-914C-11CD36B5D8DF} = {322C087C-DD94-4C89-8D00-51E943052545}
 		{15E729E3-26A5-4B65-93D4-25B7F22D8131} = {21C6F99D-CD99-4AC2-A92A-A53167B9A5C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
